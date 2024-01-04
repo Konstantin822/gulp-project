@@ -1,0 +1,41 @@
+.footer {
+    background-color: var(--Grey-100);
+    padding: 128rem 0 127rem;
+
+    &__container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__cta {
+        display: flex;
+        flex-direction: column;
+
+        &__heading {
+            padding-bottom: 32rem;
+        }
+
+        &__number {
+            padding-bottom: 16rem;
+        }
+    }
+
+    &__nav {
+        display: flex;
+        flex-direction: column;
+        gap: 24rem;
+    }
+
+    &__nav-link {
+        text-decoration: none;
+        font: var(--Heading-H6);
+        color: var(--color-black);
+        letter-spacing: 1.6rem;
+    }
+
+    &__copyright {
+        max-width: 208rem;
+        padding-top: 130rem;
+    }
+}
