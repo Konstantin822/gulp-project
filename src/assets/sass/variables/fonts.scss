@@ -14,7 +14,8 @@
     --Heading-H3: 400 23rem/38rem var(--main-font);
     --Heading-H4: 400 19rem/32rem var(--sub-font);
     --Heading-H5: 400 16rem/27rem var(--sub-font);
-    --Heading-H6: 400 16rem/26rem var(--main-font);
+    --Heading-H6: 400 16rem/26rem var(--sub-font);
+    --Heading-H7: 700 16rem/27rem var(--sub-font);
     --Heading-H8: 400 13rem/normal var(--sub-font);
     --Heading-H9: 400 12rem/20rem var(--sub-font);
 }
@@ -39,6 +40,10 @@
 
 .Heading-H6 {
     font: var(--Heading-H6);
+}
+
+.Heading-H7 {
+    font: var(--Heading-H7);
 }
 
 .Heading-H8 {

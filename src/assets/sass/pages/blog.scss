@@ -1,0 +1,170 @@
+.blog {
+
+    // Section hero
+    .hero {
+        padding: 130rem 0;
+
+        &__title {
+            max-width: 110rem;
+        }
+    }
+
+    // Section hero END
+
+    // Section slide
+    .slide {
+        margin-bottom: 114rem;
+
+        &__container {
+            display: flex;
+            gap: 68rem;
+        }
+
+        &__info {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            text-align: left;
+            width: 448rem;
+
+            &__heading {
+                display: flex;
+                flex-direction: column;
+                gap: 16rem;
+
+                &__tag {
+                    color: var(--Grey-500);
+                    letter-spacing: 1.6rem;
+                }
+
+                &__title {
+                    letter-spacing: 2.3rem;
+                }
+
+                &__date {
+                    color: var(--Grey-500);
+                    letter-spacing: 1.6rem;
+                }
+            }
+
+            &__description {
+                &__text {
+                    color: var(--Grey-700);
+                    letter-spacing: 0.8rem;
+                }
+            }
+
+            &__slide-num {
+                display: flex;
+                justify-content: space-between;
+                width: 75rem;
+
+                &__number {
+                    color: var(--color-black);
+
+                    &--active {
+                        color: var(--Grey-500);
+                    }
+                }
+            }
+        }
+    }
+
+    // Section slide END 
+
+    // Section category
+
+    .category {
+        margin-bottom: 128rem;
+
+        &__selector {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 540rem;
+            gap: 38rem;
+            padding-bottom: 48rem;
+
+            &__label {
+                color: var(--color-black);
+                letter-spacing: 1.6rem;
+            }
+
+            &__select {
+                width: 407rem;
+                padding: 21rem 0;
+                border: none;
+                border-bottom: 1rem solid var(--color-black);
+                color: var(--Grey-700);
+                letter-spacing: 1.6rem;
+            }
+        }
+
+        &__posts {
+            display: grid;
+            grid-template-columns: repeat(2, 540rem);
+            grid-template-rows: repeat(2, 501rem);
+            column-gap: 40rem;
+            row-gap: 126rem;
+
+            &__post {
+                display: flex;
+                flex-direction: column;
+                gap: 25rem;
+
+                &__tag-data {
+                    display: flex;
+                    justify-content: space-between;
+                    align-content: center;
+                    color: var(--Grey-500);
+                    letter-spacing: 1.2rem;
+                }
+
+                &__description {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                    text-align: left;
+
+
+                    &__1 {
+                        display: flex;
+                        gap: 65rem;
+                    }
+
+                    &__2 {
+                        display: flex;
+                        gap: 24rem;
+                    }
+
+                    &__3 {
+                        display: flex;
+                        gap: 24rem;
+                    }
+
+                    &__4 {
+                        display: flex;
+                        gap: 59rem;
+                    }
+                }
+            }
+
+            &__button {
+                display: flex;
+                justify-content: center;
+                text-align: center;
+                padding-top: 68rem;
+
+                &__btn {
+                    padding: 8rem 46rem;
+                    background: var(--Grey-700);
+                    color: var(--white-color);
+                    border: none;
+                    letter-spacing: 1.6rem;
+                }
+            }
+        }
+    }
+
+    // Section category END
+}
