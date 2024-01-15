@@ -1,0 +1,109 @@
+.contact-us {
+    margin-bottom: 128rem;
+
+    .hero {
+        padding-top: 131rem;
+
+        &__heading {
+            display: flex;
+            justify-content: space-between;
+            align-content: center;
+
+            &_title {
+                max-width: 263rem;
+            }
+
+            &_text {
+                max-width: 543rem;
+                color: var(--Grey-700);
+                letter-spacing: 0.95rem;
+            }
+        }
+
+        &__info {
+            display: flex;
+            justify-content: space-between;
+            padding-top: 128rem;
+
+            &_data {
+                display: flex;
+                flex-direction: column;
+                align-content: center;
+
+                &_address {
+                    max-width: 226rem;
+                    padding-top: 24rem;
+                    color: var(--Grey-700);
+                    letter-spacing: 1.6rem;
+                }
+
+                &_number {
+                    display: flex;
+                    gap: 9rem;
+                    padding-top: 21rem;
+                    color: var(--Grey-700);
+                    letter-spacing: 1.6rem;
+                }
+
+                &_email {
+                    display: flex;
+                    gap: 9rem;
+                    padding-top: 21rem;
+                    color: var(--Grey-700);
+                    letter-spacing: 1.6rem;
+                }
+
+                &_social {
+                    padding-top: 70rem;
+
+                    &_heading {
+                        padding-bottom: 24rem;
+                        letter-spacing: 2.3rem;
+                    }
+                }
+            }
+
+            &_form {
+                display: flex;
+                flex-direction: column;
+
+                &_label {
+                    color: var(--Grey-700);
+                    letter-spacing: 0.8rem;
+                }
+
+                &_input {
+                    max-width: 541rem;
+                    margin-bottom: 48rem;
+                    padding: 8rem 432rem 8rem 0;
+                    border: none;
+                    border-bottom: 1rem solid var(--color-black);
+                    color: var(--Grey-700);
+                    letter-spacing: 1.2rem;
+                }
+
+                &_selector {
+                    margin-bottom: 48rem;
+                    padding: 8rem 0rem 8rem 0;
+                    border: none;
+                    border-bottom: 1rem solid var(--color-black);
+                    color: var(--Grey-700);
+                    letter-spacing: 1.6rem;
+                }
+            }
+        }
+
+        &__button {
+            padding: 8rem 34rem;
+            margin: 16rem 0 0 580rem;
+            background: var(--Grey-700);
+            color: var(--white-color);
+            letter-spacing: 1.6rem;
+            border: none;
+
+            &_img {
+                padding-left: 8rem;
+            }
+        }
+    }
+}

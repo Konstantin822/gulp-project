@@ -1,0 +1,59 @@
+.about-us {
+
+    .hero {
+        padding: 128rem 0;
+
+        &__container {
+            display: flex;
+            gap: 148rem;
+        }
+
+        &__heading {
+            display: flex;
+            flex-direction: column;
+            text-align: left;
+            max-width: 431rem;
+
+            &_title {
+                letter-spacing: 2.4rem;
+                padding-bottom: 39rem;
+            }
+
+            &_text {
+                color: var(--Grey-700);
+                letter-spacing: 2.3rem;
+                padding-bottom: 19rem;
+            }
+
+            &_img {
+                max-width: 225rem;
+            }
+        }
+
+        &__description {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            text-align: left;
+            max-width: 540rem;
+
+            &_text {
+                color: var(--Grey-700);
+                letter-spacing: 0.95rem;
+            }
+
+            &_btn {
+                background: var(--Grey-700);
+                color: var(--white-color);
+                max-width: 160rem;
+                padding: 8rem 0;
+                border: none;
+                letter-spacing: 1.6rem;
+
+                &_img {
+                    padding-left: 8rem;
+                }
+            }
+        }
+    }
+}
