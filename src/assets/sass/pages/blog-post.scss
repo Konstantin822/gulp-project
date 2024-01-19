@@ -1,0 +1,225 @@
+.blog-post {
+
+    // Section aside 
+    .aside {
+        &__nav {
+            display: flex;
+            flex-direction: column;
+        }
+    }
+
+    // Section END
+
+    // Section hero
+    .hero {
+        margin: 128rem 0;
+
+        &__titleInfo {
+            display: flex;
+            flex-direction: column;
+            text-align: left;
+
+            &-tag {
+                color: var(--Grey-500);
+                letter-spacing: 1.6rem;
+            }
+
+            &-title {
+                max-width: 640rem;
+                padding: 24rem 0 48rem 0;
+            }
+
+            &_info {
+                display: flex;
+                gap: 39rem;
+
+                &-date {
+                    color: var(--Grey-500);
+                    letter-spacing: 1.6rem;
+                }
+
+                &-comments {
+                    display: flex;
+                    align-items: center;
+                    gap: 8rem;
+                    color: var(--Grey-500);
+                    letter-spacing: 1.6rem;
+                }
+            }
+
+            &_img {
+                padding: 64rem 0 41rem 0;
+            }
+        }
+
+        &__post {
+            padding: 0 196rem;
+
+            &_writer {
+                display: flex;
+                align-items: center;
+                gap: 8rem;
+
+                &-name {
+                    letter-spacing: 1.6rem;
+                }
+            }
+
+            &_description {
+                padding: 39rem 0 96rem 0;
+
+                &_txt {
+                    display: flex;
+                    flex-direction: column;
+                    text-align: left;
+
+                    &-text {
+                        letter-spacing: 0.95rem;
+
+                        &-list {
+                            display: flex;
+                            flex-direction: column;
+                            gap: 30rem;
+                            padding-left: 20rem;
+                            letter-spacing: 0.95rem;
+                        }
+                    }
+
+                    &-text:nth-child(2) {
+                        padding: 50rem 0;
+                    }
+
+                    &-text:nth-child(4) {
+                        margin-top: 32rem;
+                        padding-left: 64rem;
+                        border-left: 2rem solid var(--Grey-500);
+                    }
+
+                    &-text:nth-child(5) {
+                        padding: 32rem 0 45rem 64rem;
+                        border-left: 2rem solid var(--Grey-500);
+                        color: var(--Grey-500);
+                    }
+
+                    &-text:nth-child(6) {
+                        padding: 32rem 0 32rem;
+                    }
+                }
+
+                &_tags {
+                    display: flex;
+                    gap: 16rem;
+                    padding: 66rem 0 16rem 0;
+                    border-bottom: 1rem solid var(--Grey-100);
+
+                    &-text {
+                        letter-spacing: 1.6rem;
+                    }
+
+                    &-tags {
+                        letter-spacing: 1.6rem;
+                        color: var(--Grey-500);
+                    }
+                }
+            }
+
+            &_reply {
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+
+                &_form {
+                    display: flex;
+                    justify-content: space-between;
+                    align-content: space-between;
+                    gap: 43rem;
+                }
+            }
+        }
+
+        &__comments {
+            padding: 0 196rem;
+
+            &-heading {
+                letter-spacing: 2.3rem;
+            }
+
+            &_comment {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+
+                &_original {
+                    display: flex;
+                    gap: 24rem;
+                    padding-top: 24rem;
+
+                    &_info {
+                        display: flex;
+                        flex-direction: column;
+                        align-items: flex-start;
+                        gap: 16rem;
+
+                        &_content {
+                            display: flex;
+                            align-items: center;
+                            gap: 24rem;
+
+                            &-name {
+                                letter-spacing: 0.95rem;
+                            }
+
+                            &-date {
+                                color: var(--Grey-500);
+                                letter-spacing: 1.2rem;
+                            }
+                        }
+
+                        &-button {
+                            color: var(--Grey-500);
+                            letter-spacing: 1.6rem;
+                        }
+                    }
+                }
+
+                &_original:last-child {
+                    padding-top: 39rem;
+                }
+
+                &_reply {
+                    display: flex;
+                    gap: 24rem;
+                    padding: 40rem 0 40rem 96rem;
+                    border-bottom: 1rem solid var(--Grey-100);
+
+                    &_info {
+                        display: flex;
+                        flex-direction: column;
+                        align-items: flex-start;
+                        gap: 16rem;
+
+                        &_content {
+                            display: flex;
+                            align-items: center;
+                            gap: 24rem;
+
+                            &-name {
+                                letter-spacing: 0.95rem;
+                            }
+
+                            &-date {
+                                color: var(--Grey-500);
+                                letter-spacing: 1.2rem;
+                            }
+                        }
+
+                        &-button {
+                            color: var(--Grey-500);
+                            letter-spacing: 1.6rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,68 @@
+.works {
+    .hero {
+        margin: 128rem 0;
+
+        &__heading {
+            display: flex;
+            justify-content: space-between;
+            align-content: center;
+            text-align: left;
+            margin-bottom: 128rem;
+
+            &-title {
+                letter-spacing: 2.4rem;
+            }
+
+            &-text {
+                max-width: 541rem;
+                letter-spacing: 0.95rem;
+            }
+        }
+
+        &__work {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 48rem;
+
+            &_heading {
+                display: flex;
+                flex-direction: column;
+                text-align: left;
+
+                &-title {
+                    letter-spacing: 2.3rem;
+                }
+
+                &_line {
+                    width: 85rem;
+                    height: 1rem;
+                    background: var(--Grey-line);
+                    margin-top: 12rem;
+                }
+
+                &-type {
+                    padding-top: 34rem;
+                    letter-spacing: 1.6rem;
+                }
+
+                &-year {
+                    padding: 16rem 0 39rem 0;
+                    color: var(--Grey-700);
+                    letter-spacing: 1.6rem;
+                }
+
+                &_button {
+                    display: flex;
+                    align-items: center;
+                    gap: 8rem;
+                    max-width: 188rem;
+                    padding: 8rem 31rem;
+                    background: var(--Grey-700);
+                    color: var(--white-color);
+                    border: none;
+                    letter-spacing: 1.6rem;
+                }
+            }
+        }
+    }
+}
