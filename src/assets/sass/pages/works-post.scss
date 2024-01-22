@@ -1,0 +1,154 @@
+.works-post {
+
+    // Section hero
+    .hero {
+        margin-top: 130rem;
+
+        &__container {
+            display: flex;
+            flex-direction: column;
+            text-align: left;
+        }
+
+        &-text {
+            text-transform: uppercase;
+            padding-bottom: 48rem;
+            letter-spacing: 8rem;
+        }
+
+        &-heading {
+            padding-bottom: 64rem;
+            letter-spacing: 2.4rem;
+        }
+    }
+
+    // Section hero END
+
+    // Section description
+
+    .description {
+        margin-top: 130rem;
+
+        &__container {
+            display: flex;
+            align-content: center;
+            gap: 224rem;
+        }
+
+        &__overview {
+            display: flex;
+            flex-direction: column;
+            gap: 40rem;
+            max-width: 544rem;
+            text-align: left;
+
+            &-title {
+                letter-spacing: 2.3rem;
+            }
+
+            &-text {
+                color: var(--Grey-700);
+                letter-spacing: 0.95rem;
+            }
+        }
+
+        &__specifications {
+            display: flex;
+            flex-direction: column;
+            gap: 46rem;
+
+            &_info-heading {
+                letter-spacing: 2.3rem;
+            }
+
+            &_info-text {
+                color: var(--Grey-700);
+                letter-spacing: 0.95rem;
+            }
+        }
+    }
+
+    // Section description END
+
+    // Section first
+
+    .first {
+        margin-top: 135rem;
+
+        &-heading {
+            padding-bottom: 40rem;
+            letter-spacing: 2.3rem;
+        }
+
+        &-text {
+            padding-top: 50rem;
+            color: var(--Grey-700);
+            letter-spacing: 0.95rem;
+        }
+
+        &-text:last-child {
+            padding-top: 40rem;
+            max-width: 1108rem;
+        }
+    }
+
+    // Section first END
+
+    // Section second
+
+    .second {
+        margin-top: 130rem;
+
+        // Если убрать флекс слетает картинка.
+        // Причина - ?
+        &__container {
+            display: flex;
+            flex-direction: column;
+            text-align: left;
+            align-content: center;
+        }
+
+        &-heading {
+            padding-bottom: 40rem;
+            letter-spacing: 2.3rem;
+        }
+
+        &-text {
+            padding-top: 50rem;
+            color: var(--Grey-700);
+            letter-spacing: 0.95rem;
+        }
+
+        &-text:last-child {
+            padding-top: 40rem;
+        }
+    }
+
+    // Section second END
+
+    // Section thrid
+
+    .third {
+        margin: 130rem 0;
+
+        &__container {
+            display: flex;
+            flex-direction: column;
+            text-align: left;
+            align-content: center;
+        }
+
+        &-heading {
+            padding-bottom: 40rem;
+            letter-spacing: 2.3rem;
+        }
+
+        &-text {
+            padding-top: 50rem;
+            color: var(--Grey-700);
+            letter-spacing: 0.95rem;
+        }
+    }
+
+    // Section third END
+}

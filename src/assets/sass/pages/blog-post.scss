@@ -1,8 +1,12 @@
 .blog-post {
 
-    // Section aside 
+    // Section aside
     .aside {
-        &__nav {
+        position: sticky;
+        top: 1193rem;
+        margin-left: 82rem;
+
+        &__bar {
             display: flex;
             flex-direction: column;
         }
@@ -12,7 +16,6 @@
 
     // Section hero
     .hero {
-        margin: 128rem 0;
 
         &__titleInfo {
             display: flex;
@@ -127,12 +130,89 @@
                 display: flex;
                 flex-direction: column;
                 align-items: flex-start;
+                margin-bottom: 96rem;
+
+                &-heading {
+                    letter-spacing: 2.3rem;
+                }
+
+                &-text {
+                    color: var(--Grey-500);
+                    letter-spacing: 1.6rem;
+                }
 
                 &_form {
                     display: flex;
-                    justify-content: space-between;
-                    align-content: space-between;
-                    gap: 43rem;
+                    flex-direction: column;
+                    max-width: 736rem;
+                    padding-top: 64rem;
+
+                    &_personal {
+                        display: flex;
+                        justify-content: space-between;
+                        gap: 43rem;
+
+                        &_info {
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: space-between;
+
+                            &-label {
+                                color: var(--Grey-700);
+                                letter-spacing: 0.8rem;
+                            }
+
+                            &-input {
+                                max-width: 215rem;
+                                padding: 8rem 106rem 8rem 0;
+                                border: none;
+                                border-bottom: 1rem solid var(--color-black);
+                                color: var(--Grey-500);
+                                letter-spacing: 1.2rem;
+                            }
+                        }
+                    }
+
+                    &_check {
+                        display: flex;
+                        align-content: center;
+                        gap: 10rem;
+                        padding: 48rem 0;
+
+                        &-text {
+                            color: var(--Grey-500);
+                            letter-spacing: 1.2rem;
+                        }
+                    }
+
+                    &_comment {
+                        display: flex;
+                        flex-direction: column;
+
+                        &-label {
+                            color: var(--Grey-700);
+                            letter-spacing: 0.8rem;
+                        }
+
+                        &-input {
+                            padding: 8rem 0;
+                            border: none;
+                            border-bottom: 1rem solid var(--color-black);
+                            color: var(--Grey-500);
+                            letter-spacing: 1.2rem;
+                            margin-bottom: 32rem;
+                        }
+                    }
+                }
+
+                &-button {
+                    display: flex;
+                    justify-content: center;
+                    align-content: center;
+                    background: var(--Grey-700);
+                    color: var(--white-color);
+                    padding: 8rem 34rem;
+                    letter-spacing: 1.6rem;
                 }
             }
         }
@@ -153,12 +233,17 @@
                     display: flex;
                     gap: 24rem;
                     padding-top: 24rem;
+                    text-align: left;
 
                     &_info {
                         display: flex;
                         flex-direction: column;
                         align-items: flex-start;
                         gap: 16rem;
+
+                        &-text {
+                            letter-spacing: 0.95rem;
+                        }
 
                         &_content {
                             display: flex;
@@ -197,6 +282,10 @@
                         flex-direction: column;
                         align-items: flex-start;
                         gap: 16rem;
+
+                        &-text {
+                            letter-spacing: 0.95rem;
+                        }
 
                         &_content {
                             display: flex;

@@ -23,28 +23,29 @@
                     <a class="header__nav-link" href="@@webRoot/pages/works.html">Works</a>
                     <a class="header__nav-link header__nav-link--active" href="@@webRoot/pages/blog.html">Blog</a>
                     <a class="header__nav-link" href="@@webRoot/pages/contact.html">Contact</a>
+                    <button class="header__button">
+                        <img class="header__button_img" src="@@webRoot/img/Search.svg" alt="search">
+                    </button>
                 </nav>
             </div>
         </header>
 
-        <aside class="aside">
-            <div class="container aside__container">
-                <nav class="aside__nav">
-                    <a class="aside__nav-link" href=""><img class="aside-link_img"
-                            src="@@webRoot/img/blog-post/facebook-f.svg"></a>
-                    <a class="aside__nav-link" href=""><img class="aside-link_img"
-                            src="@@webRoot/img/blog-post/twitter.svg"></a>
-                    <a class="aside__nav-link" href=""><img class="aside-link_img"
-                            src="@@webRoot/img/blog-post/linkedin-in.svg"></a>
-                    <a class="aside__nav-link" href=""><img class="aside-link_img"
-                            src="@@webRoot/img/blog-post/dribbble.svg"></a>
-                </nav>
-            </div>
-        </aside>
-
         <main class="blog-post">
-            <section class="hero">
-                <div class="container hero__container">
+            <div class="container blog-post__container">
+                <aside class="aside">
+                    <div class="aside__bar">
+                        <a class="aside__bar-link" href=""><img class="aside-link_img"
+                                src="@@webRoot/img/blog-post/facebook-f.svg"></a>
+                        <a class="aside__bar-link" href=""><img class="aside-link_img"
+                                src="@@webRoot/img/blog-post/twitter.svg"></a>
+                        <a class="aside__bar-link" href=""><img class="aside-link_img"
+                                src="@@webRoot/img/blog-post/linkedin-in.svg"></a>
+                        <a class="aside__bar-link" href=""><img class="aside-link_img"
+                                src="@@webRoot/img/blog-post/dribbble.svg"></a>
+                    </div>
+                </aside>
+
+                <section class="hero">
                     <div class="hero__titleInfo">
                         <h6 class="Heading-H6 hero__titleInfo-tag">Technology, Interface Design</h6>
                         <h1 class="Heading-H1 hero__titleInfo-title">Using UX Design to Build a Sustainable Future</h1>
@@ -127,20 +128,25 @@
                             <h3 class="Heading-H3 hero__post_reply-heading">Leave a Reply</h3>
                             <h6 class="Heading-H6 hero__post_reply-text">Required fields are marked *</h6>
                             <form class="hero__post_reply_form">
-                                <div class="hero__post_reply_form_info">
-                                    <label class="Heading-H5 hero__post_reply_form_info-label">Name</label>
-                                    <input class="Heading-H9 hero__post_reply_form_info-input" type="text"
-                                        placeholder="Walter Moss">
-                                </div>
-                                <div class="hero__post_reply_form_info">
-                                    <label class="Heading-H5 hero__post_reply_form_info-label">Email</label>
-                                    <input class="Heading-H9 hero__post_reply_form_info-input" type="email"
-                                        placeholder="info@manifest.com">
-                                </div>
-                                <div class="hero__post_reply_form_info">
-                                    <label class="Heading-H5 hero__post_reply_form_info-label">Website</label>
-                                    <input class="Heading-H9hero__post_reply_form_info-input" type="text"
-                                        placeholder="www.manifest.com">
+                                <div class="hero__post_reply_form_personal">
+                                    <div class="hero__post_reply_form_personal_info">
+                                        <label class="Heading-H5 hero__post_reply_form_personal_info-label">Name
+                                            *</label>
+                                        <input class="Heading-H9 hero__post_reply_form_personal_info-input" type="text"
+                                            placeholder="Walter Moss">
+                                    </div>
+                                    <div class="hero__post_reply_form_personal_info">
+                                        <label class="Heading-H5 hero__post_reply_form_personal_info-label">Email
+                                            *</label>
+                                        <input class="Heading-H9 hero__post_reply_form_personal_info-input" type="email"
+                                            placeholder="info@manifest.com">
+                                    </div>
+                                    <div class="hero__post_reply_form_personal_info">
+                                        <label class="Heading-H5 hero__post_reply_form_personal_info-label">Website
+                                            *</label>
+                                        <input class="Heading-H9 hero__post_reply_form_personal_info-input" type="text"
+                                            placeholder="www.manifest.com">
+                                    </div>
                                 </div>
                                 <div class="hero__post_reply_form_check">
                                     <input class="hero__post_reply_form_check-checkbox" type="checkbox">
@@ -154,7 +160,7 @@
                                         placeholder="Hi there ...">
                                 </div>
                             </form>
-                            <button class="Heading-H7 button hero__post_reply_button">Post</button>
+                            <button class="Heading-H7 button hero__post_reply-button">Post</button>
                         </div>
                     </div>
 
@@ -174,7 +180,7 @@
                                         <h6 class="Heading-H9 hero__comments_comment_original_info_content-date">6 May,
                                             2020</h6>
                                     </div>
-                                    <h4 class="Heading-H4 hero__comments_comment_original_info_content-text">Lorem ipsum
+                                    <h4 class="Heading-H4 hero__comments_comment_original_info-text">Lorem ipsum
                                         dolor
                                         sit
                                         amet,
@@ -201,7 +207,7 @@
                                         <h6 class="Heading-H9 hero__comments_comment_reply_info_content-date">6 May,
                                             2020</h6>
                                     </div>
-                                    <h4 class="Heading-H4 hero__comments_comment_reply_info_content-text">Lorem ipsum
+                                    <h4 class="Heading-H4 hero__comments_comment_reply_info-text">Lorem ipsum
                                         dolor
                                         sit
                                         amet,
@@ -229,7 +235,7 @@
                                     <h6 class="Heading-H9 hero__comments_comment_original_info_content-date">6 May, 2020
                                     </h6>
                                 </div>
-                                <h4 class="Heading-H4 hero__comments_comment_original_info_content-text">Lorem ipsum
+                                <h4 class="Heading-H4 hero__comments_comment_original_info-text">Lorem ipsum
                                     dolor sit
                                     amet,
                                     consectetuer
@@ -243,7 +249,7 @@
                             </div>
                         </div>
                     </div>
-                </div>
+            </div>
             </section>
         </main>
 

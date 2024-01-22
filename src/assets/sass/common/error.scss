@@ -1,0 +1,10 @@
+.error {
+    .hero {
+        margin-top: 130rem;
+
+        &__container {
+            display: flex;
+            flex-direction: row;
+        }
+    }
+}
