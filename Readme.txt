@@ -1,5 +1,5 @@
 Course project.
-Multi page website.
+Multipage website.
 
 Плагіни додані викладачем
 Plugins added by teacher
