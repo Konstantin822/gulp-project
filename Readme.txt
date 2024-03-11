@@ -1,4 +1,5 @@
 Плагіни додані викладачем
+Plugins added by teacher
 
 ###need install gulp on global-cli### відкрити термінал і глобально заінсталити gulp-cli
 npm install --global gulp-cli 
